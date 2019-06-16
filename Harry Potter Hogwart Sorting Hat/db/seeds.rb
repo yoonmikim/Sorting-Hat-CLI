@@ -1,0 +1,26 @@
+slytherin = House.create(house_name: "Slytherin")
+hufflepuff = House.create(house_name: "Hufflepuff")
+ravenclaw = House.create(house_name: "Ravenclaw")
+gryffindor = House.create(house_name: "Gryffindor")
+
+harry = Student.create(name:"Harry")
+hermione = Student.create(name:"Hermione")
+ron = Student.create(name:"Ron")
+malfoy = Student.create(name:"Draco Malfoy")
+luna = Student.create(name:"Luna Lovegood")
+cho = Student.create(name:"Cho Chang")
+newt = Student.create(name:"Newt Scamander")
+
+Quiz.create(student_id: harry.id, house_id: gryffindor.id)
+Quiz.create(student_id: hermione.id, house_id: gryffindor.id)
+Quiz.create(student_id: ron.id, house_id: gryffindor.id)
+Quiz.create(student_id: malfoy.id, house_id: slytherin.id)
+Quiz.create(student_id: luna.id, house_id: ravenclaw.id)
+Quiz.create(student_id: cho.id, house_id: ravenclaw.id)
+Quiz.create(student_id: newt.id, house_id: hufflepuff.id)
+
+
+# slytherin = House.find_by(house_name: "Slytherin")
+# hufflepuff = House.find_by(house_name: "Hufflepuff")
+# ravenclaw = House.find_by(house_name: "Ravenclaw")
+# gryffindor = House.find_by(house_name: "Gryffindor")
