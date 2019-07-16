@@ -2,6 +2,12 @@
 
 A CLI app that allows user to take a "Sorting Hat" quiz to be placed in one of Harry Potter Hogwarts Schools. 
 
+'bundle install' in your terminal to install the bundle of gems required to run this file. You will also need to install 'colorize' by running 'gem install colorize', and 'tty prompt' by running 'gem install tty-prompt'. Before running the program for the first time, run 'rake db:seed' and 'rake db:migrate' to load all necessary seed data that will be used in the application, and to create the tables that will store the values. To run the file, use the command 'ruby bin/run.rb', then use the arrow keys and 'ENTER' to navigate through the application.
+
+
+
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -26,54 +32,33 @@ Say what the step will be
 ``` 
  // Terminal
 bundle install
+gem install colorize
+gem install tty-prompt
+rake db:seed
+rake db:migrate
 ```
 
-And repeat
-
-```
-run ruby.rb
-
-```
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## Play the quiz
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
 
 ```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
+ruby bin/run.rb
 
 ```
-Give an example
-```
 
-## Deployment
+You can use keyboard arrows (up & down) and press ENTER key for selecting choices.
 
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Ruby](https://www.ruby-lang.org/en/) 
 
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
@@ -88,6 +73,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
 * Flatiron School / Access Labs 2019
