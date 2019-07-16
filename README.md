@@ -2,11 +2,6 @@
 
 A CLI app that allows user to take a "Sorting Hat" quiz to be placed in one of Harry Potter Hogwarts Schools. 
 
-'bundle install' in your terminal to install the bundle of gems required to run this file. You will also need to install 'colorize' by running 'gem install colorize', and 'tty prompt' by running 'gem install tty-prompt'. Before running the program for the first time, run 'rake db:seed' and 'rake db:migrate' to load all necessary seed data that will be used in the application, and to create the tables that will store the values. To run the file, use the command 'ruby bin/run.rb', then use the arrow keys and 'ENTER' to navigate through the application.
-
-
-
-
 
 ## Getting Started
 
