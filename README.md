@@ -2,6 +2,7 @@
 
 A CLI app that allows user to take a "Sorting Hat" quiz to be placed in one of Harry Potter Hogwarts Schools. 
 
+<iframe src='//gifs.com/embed/sorting-hat-cli-lx8J8g' frameborder='0' scrolling='no' width='1280px' height='720px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
 
 ## Getting Started
 
