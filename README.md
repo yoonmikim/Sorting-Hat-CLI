@@ -1,6 +1,9 @@
 # Sorting-Hat
 
-A CLI app that allows user to take a "Sorting Hat" quiz to be placed in one of Harry Potter Hogwarts Schools. 
+A CLI app that allows user to take a "Sorting Hat" quiz to be placed in one of Harry Potter Hogwarts Schools.
+
+![](https://j.gifs.com/lx8J8g.gif)
+
 
 https://j.gifs.com/lx8J8g.gif
 
