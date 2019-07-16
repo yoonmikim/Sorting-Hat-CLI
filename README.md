@@ -50,6 +50,9 @@ You can use keyboard arrows (up & down) and press ENTER key for selecting choice
 ## Built With
 
 * [Ruby](https://www.ruby-lang.org/en/) 
+* [TTYPrompt](https://github.com/piotrmurach/tty-prompt)
+* [Colorize](https://github.com/fazibear/colorize) 
+
 
 ## Contributing
 
